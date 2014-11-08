@@ -6,8 +6,8 @@ var displayResult = function(result) {
     console.log(JSON.stringify(result, null, 2));
 };
 
-var host = "192.168.200.18",
-    username = "newdeveloper",
+var host = "-",
+    username = "-",
     api = new HueApi(host, username),
     state;
 
